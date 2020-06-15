@@ -349,7 +349,7 @@ export default {
     // console.log(document.getElementById("contact-container").offsetTop)
     window.addEventListener('scroll', () => {
       console.log(window.scrollY)
-      if(window.scrollY < 754) {
+      if(window.scrollY < 694) {
         this.selectedNav = 1
       } else if(window.scrollY < 4528) {
         this.selectedNav = 2
