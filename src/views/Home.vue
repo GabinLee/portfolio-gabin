@@ -270,6 +270,7 @@
                 <img src="../assets/sj-ez.png" alt="">
               </div>
               <div class="text-box padding-40" :data-aos="responsiveMode == 'web' ? fadeRight : fadeUp">
+                <p class="b-text">퍼블리싱 업무 담당</p>
                 <p class="b-text">반응형</p>
                 <p class="b-text">Vue.js 프레임워크</p>
                 <div class="btn-bx">
