@@ -334,6 +334,7 @@ export default {
     responsiveMode: 'web'
   }),
   created() {
+    
     window.onscroll = function () {
       if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60 ) {
         document.getElementById("header").style.boxShadow = "0 2px 2px 0 #eee"
@@ -344,6 +345,14 @@ export default {
     
   },
   mounted() {
+      // console.log(window.innerWidth)
+      if(window.innerWidth < 769) {
+        this.responsiveMode = 'mobile';
+      } else {
+        this.responsiveMode = 'web';
+      }
+      // console.log(this.responsiveMode);
+    
     window.addEventListener("resize", this.resizedWindow);
 
     // console.log(document.getElementById("projects-container").offsetTop)
@@ -361,15 +370,6 @@ export default {
 
   },
   methods: { 
-    resizedWindow() {
-      // console.log(window.innerWidth)
-      if(window.innerWidth < 769) {
-        this.responsiveMode = 'mobile';
-      } else {
-        this.responsiveMode = 'web';
-      }
-      // console.log(this.responsiveMode);
-    },
     clickedIntro(index) {
       this.selectedNav = index;
       window.scroll({
