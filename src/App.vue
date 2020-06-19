@@ -15,7 +15,7 @@
     font-family: 'Inter', sans-serif;
   }
   ::selection{
-    background-color: #3EDA93;
+    background-color: rgba(66, 133, 244, .2);
   }
   p::selection, div::selection, button::selection{
     background-color: rgba(66, 133, 244, .2);

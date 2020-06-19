@@ -345,13 +345,14 @@ export default {
     
   },
   mounted() {
-      // console.log(window.innerWidth)
-      if(window.innerWidth < 769) {
-        this.responsiveMode = 'mobile';
-      } else {
-        this.responsiveMode = 'web';
-      }
-      // console.log(this.responsiveMode);
+    // console.log(window.innerWidth)
+    // console.log(this.responsiveMode)
+    if(window.innerWidth < 769) {
+      this.responsiveMode = 'mobile';
+    } else {
+      this.responsiveMode = 'web';
+    }
+      
     
     window.addEventListener("resize", this.resizedWindow);
 
@@ -438,6 +439,7 @@ export default {
       background: linear-gradient(to right, #FCC8E2, #BDC2FF);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
+      -webkit-mask-image: linear-gradient(#FCC8E2, #BDC2FF);
       width: 100%;
       height: 100%;
       font-size: 200px;
