@@ -261,7 +261,7 @@
                 <p class="b-text">Vue.js 프레임워크</p>
                 <div class="btn-bx">
                   <div class="bg-bx"></div>
-                  <a href="http://shcontents.com/" class="fs16" _blank v-ripple>view more</a>
+                  <a href="http://shcontents.com/" class="fs16" _blank v-ripple>페이지 보기</a>
                 </div>
               </div>
             </div>
@@ -276,7 +276,7 @@
                 <p class="b-text">Vue.js 프레임워크</p>
                 <div class="btn-bx">
                   <div class="bg-bx"></div>
-                  <a href="http://sj-ez.com/" class="fs16" _blank v-ripple>view more</a>
+                  <a href="http://sj-ez.com/" class="fs16" _blank v-ripple>페이지 보기</a>
                 </div>
               </div>
             </div>
@@ -563,7 +563,7 @@ export default {
         // background: linear-gradient(to right, #FCC8E2, #BDC2FF);
         // -webkit-text-fill-color: transparent;
         // -webkit-background-clip: text;
-        color: #bebeb e;
+        color: #bebebe;
         transform: rotate( -45deg );
         transition: .3s;
       }
