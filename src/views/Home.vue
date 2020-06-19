@@ -12,7 +12,8 @@
 
     <main>
       <div id="intro">
-        <p class="padding-40">I'm Gabin</p>
+        <!-- <p class="padding-40">I'm Gabin</p> -->
+        <img src="../assets/intro.png" alt="">
       </div>
 
       <div id="projects-container" class="padding-40">
@@ -435,22 +436,28 @@ export default {
     width: 100%;
     height: 100vh;
     padding-top: 60px;
-    p{
-      background: linear-gradient(to right, #FCC8E2, #BDC2FF);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      -webkit-mask-image: linear-gradient(#FCC8E2, #BDC2FF);
-      width: 100%;
-      height: 100%;
-      font-size: 200px;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-size: cover;
-      text-align: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    img{
+      width: 70%;
     }
+    // p{
+    //   background: linear-gradient(to right, #FCC8E2, #BDC2FF);
+    //   background: -ms-linear-gradient(to right, #FCC8E2, #BDC2FF);
+    //   -webkit-text-fill-color: transparent;
+    //   -webkit-background-clip: text;
+    //   width: 100%;
+    //   height: 100%;
+    //   font-size: 200px;
+    //   font-weight: bold;
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   background-size: cover;
+    //   text-align: center;
+    // }
   }
 
   #practical-work-container{ background-color: #eee; }
@@ -553,9 +560,10 @@ export default {
         transition: all .3s;
       }
       .v-icon{
-        background: linear-gradient(to right, #FCC8E2, #BDC2FF);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+        // background: linear-gradient(to right, #FCC8E2, #BDC2FF);
+        // -webkit-text-fill-color: transparent;
+        // -webkit-background-clip: text;
+        color: #bebeb e;
         transform: rotate( -45deg );
         transition: .3s;
       }
